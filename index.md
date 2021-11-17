@@ -77,7 +77,7 @@ System.out.println("Error"+e);
 }
 ```
 OUTPUT
-![Output](https://github.com/Sherin-Sneha/CN_Lab-CBS/blob/main/RCE%20Output.png)
+![Output](https://github.com/Sherin-Sneha/CN_Lab-CBS/blob/gh-pages/RCE%20Output.png)
 
 RESULT
 Thus the implementation RCE is done & executed successfully.
