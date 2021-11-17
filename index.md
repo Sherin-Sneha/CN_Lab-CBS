@@ -1,11 +1,13 @@
-CONTENT BEYOND SYLLABUS
-IMPLEMENTATION OF REMOTE COMMAND EXECUTION (RCE)
+Sherin Sneha J - 311119205051
 
-AIM
+_CONTENT BEYOND SYLLABUS_
+**IMPLEMENTATION OF REMOTE COMMAND EXECUTION (RCE)**
+
+_**AIM**_
 To implement Remote Command Execution(RCE).
 
-ALGORITHM
-CLIENT SIDE
+_**ALGORITHM**_
+**CLIENT SIDE**
 1. Establish a connection between the Client and Server.
 Socket client=new Socket("127.0.0.1",6555);
 2. Create instances for input and output streams.
@@ -16,7 +18,7 @@ Send themessage to its output
 str=br.readLine();
 ps.println(str);
 
-SERVER SIDE
+**SERVER SIDE**
 1. Accept the connection request by the client.
 ServerSocket server=new ServerSocket(6555);
 Sockets=server.accept();
@@ -27,7 +29,7 @@ ip=br1.readLine();
 Runtime r=Runtime.getRuntime();
 Process p=r.exec(str);
 
-CLIENT PROGRAM
+**CLIENT PROGRAM**
 ```markdown
 import java.io.*;
 import java.net.*;
@@ -51,7 +53,7 @@ System.out.println("Error"+e); }
 }
 ```
 
-SERVER PROGRAM
+**SERVER PROGRAM**
 ```markdown
 import java.io.*;
 import java.net.*;
@@ -76,10 +78,9 @@ System.out.println("Error"+e);
 }
 }
 ```
-OUTPUT
+
+**_OUTPUT_**
 ![image](https://user-images.githubusercontent.com/67852150/142240284-66ed3c38-ce8a-4e5a-a96e-b105c685e70b.png)
 
-![Output](https://github.com/Sherin-Sneha/CN_Lab-CBS/blob/gh-pages/RCE%20Output.png)
-
-RESULT
+_**RESULT**_
 Thus the implementation RCE is done & executed successfully.
