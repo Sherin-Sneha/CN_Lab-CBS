@@ -1,12 +1,15 @@
 Sherin Sneha J - 311119205051
 
 _CONTENT BEYOND SYLLABUS_
+
 **IMPLEMENTATION OF REMOTE COMMAND EXECUTION (RCE)**
 
 _**AIM**_
+
 To implement Remote Command Execution(RCE).
 
 _**ALGORITHM**_
+
 **CLIENT SIDE**
 1. Establish a connection between the Client and Server.
 Socket client=new Socket("127.0.0.1",6555);
