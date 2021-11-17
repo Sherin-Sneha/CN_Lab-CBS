@@ -77,6 +77,8 @@ System.out.println("Error"+e);
 }
 ```
 OUTPUT
+![image](https://user-images.githubusercontent.com/67852150/142240284-66ed3c38-ce8a-4e5a-a96e-b105c685e70b.png)
+
 ![Output](https://github.com/Sherin-Sneha/CN_Lab-CBS/blob/gh-pages/RCE%20Output.png)
 
 RESULT
