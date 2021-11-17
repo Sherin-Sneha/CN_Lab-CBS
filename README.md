@@ -7,6 +7,7 @@ Aim:
 To implement Remote Command Execution(RCE).
 
 Algorithm:
+
 Client side
 1. Establish a connection between the Client and Server.
 Socket client=new Socket("127.0.0.1",6555);
